@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f12f2595-bf3e-41b8-92c9-eb90f41614c5}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>exemplo03.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="arquivos\scores.txt" />
+    <Content Include="Exemplo 02\Dwarf.png" />
+    <Content Include="Exemplo 02\Grassbg.png" />
+    <Content Include="Exemplo 02\Wizard.png" />
+    <Content Include="Exemplo-Game-Pyro\SpacePack\LaserBeam.png" />
+    <Content Include="Exemplo-Game-Pyro\SpacePack\Rocket.png" />
+    <Content Include="Exemplo-Game-Pyro\SpacePack\UFOBoss.png" />
+    <Content Include="exemplo-gif\144.gif" />
+    <Content Include="exemplo-gif\RetroMan.gif" />
+    <Content Include="GamePG\InimigoMeu1.png" />
+    <Content Include="GamePG\InimigoMeu2.png" />
+    <Content Include="GamePG\InimigoMeu4.png" />
+    <Content Include="GamePG\InimigoMeu5.png" />
+    <Content Include="GamePG\InimigoMeu6.png" />
+    <Content Include="GamePG\InimigoMeu7.png" />
+    <Content Include="GamePG\InimigoMeu8.png" />
+    <Content Include="GamePG\InimigoMeu9.png" />
+    <Content Include="GamePG\LaserBeam.png" />
+    <Content Include="GamePG\Rocket.png" />
+    <Content Include="GamePG\space.jpg" />
+    <Content Include="GamePG\UFOBoss.png" />
+    <Content Include="Grassbg.png" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_run.000.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_run.001.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_run.002.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_run.003.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_run.004.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_run.005.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_walk.000.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_walk.001.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_walk.002.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_walk.003.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_walk.004.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_back_walk.005.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_run.000.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_run.001.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_run.002.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_run.003.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_run.004.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_run.005.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_walk.000.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_walk.001.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_walk.002.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_walk.003.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_walk.004.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_front_walk.005.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_run.000.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_run.001.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_run.002.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_run.003.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_run.004.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_run.005.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_walk.000.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_walk.001.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_walk.002.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_walk.003.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_walk.004.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_left_walk.005.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_sleep.000.gif" />
+    <Content Include="pyganim\pyganim_examples\gameimages\crono_sleep.001.gif" />
+    <Content Include="pyganim\pyganim_examples\testimages\alsweigart1.jpg" />
+    <Content Include="pyganim\pyganim_examples\testimages\alsweigart2.jpg" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0001.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0002.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0003.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0004.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0005.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0006.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0007.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0008.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0009.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\bolt_strike_0010.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\flame_a_0001.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\flame_a_0002.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\flame_a_0003.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\flame_a_0004.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\flame_a_0005.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\flame_a_0006.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0001.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0002.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0003.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0004.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0005.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0006.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0007.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0008.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0009.png" />
+    <Content Include="pyganim\pyganim_examples\testimages\smoke_puff_0010.png" />
+    <Content Include="socket\score\scores.txt" />
+    <Content Include="space.jpg" />
+    <Content Include="SpacePack\LaserBeam.png" />
+    <Content Include="SpacePack\Rocket.png" />
+    <Content Include="SpacePack\UFOBoss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arquivos\escrita.py" />
+    <Compile Include="arquivos\leitura.py" />
+    <Compile Include="Exemplo 02\game.py" />
+    <Compile Include="Exemplo 02\objetos.py" />
+    <Compile Include="Exemplo 02\player.py" />
+    <Compile Include="Exemplo-Game-Pyro\cliente-player.py" />
+    <Compile Include="Exemplo-Game-Pyro\server-inimigo.py" />
+    <Compile Include="exemplo-gif\exemplo.py" />
+    <Compile Include="exemplo-gif\GIFImage.py" />
+    <Compile Include="exemplo-multiplos-inimigos.py" />
+    <Compile Include="exemplo-tela.py" />
+    <Compile Include="exemplo01.py" />
+    <Compile Include="exemplo10.py" />
+    <Compile Include="exemplo02.py" />
+    <Compile Include="exemplo03.py" />
+    <Compile Include="exemplo04.py" />
+    <Compile Include="exemplo04a.py" />
+    <Compile Include="exemplo05.py" />
+    <Compile Include="exemplo06.py" />
+    <Compile Include="exemplo07.py" />
+    <Compile Include="exemplo07a.py" />
+    <Compile Include="exemplo07b.py" />
+    <Compile Include="exemplo08.py" />
+    <Compile Include="exemplo08a.py" />
+    <Compile Include="exemplo08b.py" />
+    <Compile Include="exemplo08c.py" />
+    <Compile Include="exemplo08d.py" />
+    <Compile Include="exemplo9-Pyro.py" />
+    <Compile Include="exemplo09.py" />
+    <Compile Include="exemploFullScreen.py" />
+    <Compile Include="exemploPerseguicao.py" />
+    <Compile Include="exemploRGB.py" />
+    <Compile Include="forca1.py" />
+    <Compile Include="forca2.py" />
+    <Compile Include="GamePG\exemploPG1.py" />
+    <Compile Include="GamePG\exemploPG2.py" />
+    <Compile Include="GamePG\exemploPG3.py" />
+    <Compile Include="GamePG\inimigo.py" />
+    <Compile Include="parOuImpar.py" />
+    <Compile Include="pyganim\pyganim.py" />
+    <Compile Include="pyganim\pyganim_examples\pyganim.py" />
+    <Compile Include="pyganim\pyganim_examples\test1_pyganim.py" />
+    <Compile Include="pyganim\pyganim_examples\test2_pyganim.py" />
+    <Compile Include="pyganim\pyganim_examples\test3_pyganim.py" />
+    <Compile Include="pyganim\pyganim_examples\test4_pyganim.py" />
+    <Compile Include="script1.py" />
+    <Compile Include="script2.py" />
+    <Compile Include="script3.py" />
+    <Compile Include="socket\cliente.py" />
+    <Compile Include="socket\score\cliente.py" />
+    <Compile Include="socket\score\servidor.py" />
+    <Compile Include="socket\servidor.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="arquivos" />
+    <Folder Include="Exemplo 02" />
+    <Folder Include="Exemplo-Game-Pyro" />
+    <Folder Include="Exemplo-Game-Pyro\SpacePack" />
+    <Folder Include="exemplo-gif" />
+    <Folder Include="GamePG" />
+    <Folder Include="pyganim" />
+    <Folder Include="pyganim\pyganim_examples" />
+    <Folder Include="pyganim\pyganim_examples\gameimages" />
+    <Folder Include="pyganim\pyganim_examples\testimages" />
+    <Folder Include="socket" />
+    <Folder Include="socket\score" />
+    <Folder Include="SpacePack" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

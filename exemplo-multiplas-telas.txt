@@ -1,0 +1,13 @@
+import pygame
+pygame.init()
+tela = pygame.display.set_mode((800, 600))
+cor1 = (255, 0, 0)
+
+while True:
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            exit()
+            
+    tela.fill(cor)        
+    pygame.display.update()
